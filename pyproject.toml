@@ -1,0 +1,15 @@
+[project]
+name = "torch-speedbench"
+version = "0.1.0"
+authors = [
+    { name = "Lionel Peer", email = "lionel.peer@gmail.com" },
+]
+license = { file = "LICENSE" }
+description = "A benchmarking tool for PyTorch data loading and augmentations."
+dependencies = [
+    "torch==2.5.1",
+    "lightning==2.5.1",
+    "torchvision==0.20.1",
+    "jaxtyping==0.3.2",
+    "albumentations==2.0.6",
+]
